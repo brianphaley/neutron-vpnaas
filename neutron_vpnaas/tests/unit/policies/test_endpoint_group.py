@@ -24,10 +24,8 @@ class EndpointGroupAPITestCase(base.PolicyBaseTestCase):
     def setUp(self):
         super().setUp()
         self.target = {
-            'project_id': self.project_id,
             'project_id': self.project_id}
         self.alt_target = {
-            'project_id': self.alt_project_id,
             'project_id': self.alt_project_id}
 
 
