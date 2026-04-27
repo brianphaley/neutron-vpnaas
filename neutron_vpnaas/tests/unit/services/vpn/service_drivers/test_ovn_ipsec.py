@@ -35,13 +35,13 @@ FAKE_TRANSIT_IP_ADDRESS = '169.254.0.2'
 FAKE_VPNSERVICE_1 = {
     'id': _uuid(),
     'router_id': FAKE_ROUTER_ID,
-    'tenant_id': FAKE_TENANT_ID
+    'project_id': FAKE_TENANT_ID
 }
 
 FAKE_VPNSERVICE_2 = {
     'id': _uuid(),
     'router_id': FAKE_ROUTER_ID,
-    'tenant_id': FAKE_TENANT_ID
+    'project_id': FAKE_TENANT_ID
 }
 
 FAKE_VPN_CONNECTION_1 = {
